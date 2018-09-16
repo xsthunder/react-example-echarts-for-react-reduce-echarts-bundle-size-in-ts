@@ -1,4 +1,5 @@
 node_modules
 ts-dist
-dist
 package-lock.json
+dist/*
+!dist/index.html
