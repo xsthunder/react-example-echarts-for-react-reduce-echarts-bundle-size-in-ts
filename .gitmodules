@@ -1,0 +1,3 @@
+[submodule "echarts-for-react"]
+	path = echarts-for-react
+	url = https://github.com/xsthunder/echarts-for-react.git
