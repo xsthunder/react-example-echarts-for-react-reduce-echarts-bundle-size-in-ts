@@ -5,7 +5,7 @@ see [echarts-for-react readme](https://github.com/hustcc/echarts-for-react/blob/
 Import ECharts.js modules manually to reduce bundle size in typescript, see [Simple](./src/Simple.tsx)
 
 ## note
-using [a forked version of echarts-for-react](https://github.com/xsthunder/echarts-for-react), see pakage.json and .gitmodules for detail, also a (pull request)[https://github.com/hustcc/echarts-for-react/pull/225] has been made.
+using [a forked version of echarts-for-react](https://github.com/xsthunder/echarts-for-react), see pakage.json and .gitmodules for detail, also a [pull request](https://github.com/hustcc/echarts-for-react/pull/225) has been made.
 
 ## usage 
 ```js
