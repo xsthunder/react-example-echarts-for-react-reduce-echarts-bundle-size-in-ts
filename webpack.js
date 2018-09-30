@@ -1,9 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  mode:'development',
+  mode:'production',
   entry:{
     app:'./ts-dist/index.js',
+    simple:'./ts-dist/Simple.js',
+    "simple-core":'./ts-dist/SimpleCore.js',
   },
   resolve:{
   },

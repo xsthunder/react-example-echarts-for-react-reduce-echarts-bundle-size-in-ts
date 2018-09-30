@@ -1,7 +1,8 @@
 import React, { PureComponent } from 'react';
 // import ReactEcharts from '../../../src/index';
 // original from https://github.com/hustcc/echarts-for-react/blob/master/demo/src/charts/Simple.jsx
-import ReactEcharts from 'echarts-for-react'
+import ReactEchartsCore from 'echarts-for-react/lib/core';
+import echarts from 'echarts/lib/echarts'
 import 'echarts/lib/chart/line'
 import 'echarts/lib/component/legend'
 import 'echarts/lib/component/toolbox'
@@ -72,7 +73,8 @@ export default class Simple extends PureComponent {
       <div className='examples'>
         <div className='parent'>
           <label> render a Simple echart With <strong>option and height</strong>: </label>
-          <ReactEcharts
+          <ReactEchartsCore
+            echarts={echarts}
             option={this.getOption()}
             style={{height: '350px', width: '100%'}}
             className='react_for_echarts' />
