@@ -2,10 +2,6 @@ import React, { PureComponent } from 'react';
 // import ReactEcharts from '../../../src/index';
 // original from https://github.com/hustcc/echarts-for-react/blob/master/demo/src/charts/Simple.jsx
 import ReactEcharts from 'echarts-for-react'
-import 'echarts/lib/chart/line'
-import 'echarts/lib/component/legend'
-import 'echarts/lib/component/toolbox'
-import 'echarts/lib/component/tooltip'
 
 export default class Simple extends PureComponent {
   getOption = () => {
